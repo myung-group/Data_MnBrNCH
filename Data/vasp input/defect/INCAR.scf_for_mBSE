@@ -1,0 +1,30 @@
+SYSTEM = MnBrNCH
+
+전자 구조 계산 일반 설정
+ISTART = 1       # WAVECAR 사용
+ICHARG = 0       # CHGCAR에서 전하 밀도 사용
+ENCUT = 500      # 컷오프 에너지 (eV)
+ISMEAR = 0       # 가우시안 스메어링
+SIGMA = 0.05     # 스메어링 폭
+EDIFF = 1E-05    # 전자 수렴 기준
+LREAL = Auto     # 실공간 프로젝터 최적화
+
+# 병렬화
+NCORE = 1
+
+# 광학 계산 설정
+LOPTICS = .True.  # 광학 계산 활성화
+LPEAD = .TRUE.
+!CSHIFT = 0.05     # 복소 주파수의 소멸 (eV)
+OMEGAMAX = 20.0    # 광학 스펙트럼 최대 에너지 (eV)
+!OMEGAGRID = 0.01  # 에너지 간격 (eV)
+
+# 기타 설정
+!LCHARG = .True.   # CHGCAR 저장
+!LWAVE = .True.    # WAVECAR 저장
+NSW = 0           # 정지된 원자 (구조 최적화 없음)
+IBRION = -1       # 자유 에너지 계산만 수행
+ISPIN = 2         # 스핀 극성화 고려
+MAGMOM = 12*5.0 47*0.0 24*0.0 216*0.0 336*0.0
+IALGO = 48
+NELM = 50000
