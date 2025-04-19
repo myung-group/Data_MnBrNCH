@@ -1,6 +1,6 @@
 # Data_MnBrNCH
 
-Spin polarized pdos theoretical data for **Temperature-independent analogous thermally activated delay fluorescence in [(CH3)NPh]MnBr4 single crystal: Insights into carrier localization and defect-Induced dynamics**, prof.Youngsin Park's paper.
+Spin polarized pdos theoretical data for **Temperature-independent analogous thermally activated delay fluorescence in [(CH3)NPh]MnBr4 single crystal: Insights into carrier localization and defect-Induced dynamics**, by Mutibah Alanazi, Atanu Jana, Won Woong Choi, D. ChangMo Yang, Robert A. Taylor, Chang Woo Myung, Youngsin Park.
 
 **Abstract**
 
